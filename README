@@ -1,0 +1,36 @@
+Net::Dev::Tools::Syslog  version 0.8.0
+=======================================
+
+DESCRIPTION
+
+This module provides functionality to:
+   - parse syslog log files, apply filters
+   - send syslog message to syslog server
+   - listren for syslog messages on local host
+
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+   Time::Local
+   IO::Socket
+   Sys::Hostname
+
+COPYRIGHT AND LICENCE
+
+
+Copyright (C) 2004 Scott Parsons
+
+All rights reserved.
+This program is free software; you may redistribute it 
+and/or modify it under the same terms as Perl itself.
